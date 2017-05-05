@@ -1,0 +1,59 @@
+/*-----------------------------------------------------------------button*/
+.btn-group-lg > .btn,
+.btn-lg {
+    border-radius: 2px;
+    height: 69px;
+    line-height: 49px;
+    color: $black;
+    letter-spacing: .044em;
+    padding-left: 34px;
+    padding-right: 34px;
+    font-size: 22px!important
+}
+.btn-group-lg > .btn span,
+.btn-lg span {
+    position: relative;
+    font-size: 25px;
+    top: 4px
+}
+.btn-group-lg > .btn-primary.btn,
+.btn-lg.btn-primary {
+    border-color: $gold;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .1)
+}
+.btn-group-lg > .btn-info.btn,
+.btn-lg.btn-info {
+    color:$white;
+    font-size: 22px
+}
+.btn-group-lg > .btn-success.btn,
+.btn-lg.btn-success {
+    color:$white
+}
+.btn-group-lg > .btn-success.-network.btn,
+.btn-lg.btn-success.-network {
+    font-size: 22px;
+    border-color: #319424;
+    background-color: #319424
+}
+
+/*-----------------------------------------------------------------label*/
+label {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 12px;
+    letter-spacing: .072em
+}
+
+/*-----------------------------------------------------------------input*/
+.input-group-lg>.form-control,
+.input-group-lg>.input-group-addon,
+.input-group-lg>.input-group-btn>.btn,
+.input-lg {
+    height: 69px;
+    font-weight: 200;
+    font-size: 22px;
+    letter-spacing: .07em;
+    border-radius: 1px;
+}
